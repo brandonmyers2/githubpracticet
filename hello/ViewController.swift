@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    //Hiding Status Bar
+    //Hiding Status Bar 
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
