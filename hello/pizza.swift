@@ -11,10 +11,8 @@ import Foundation
 protocol PizzaInterface {
     func calculaterTopping() -> Double
     
-    func pizza() -> String
-    
 }
-  class Pizza {
+class Pizza : PizzaInterface {
     //pizzaTime var. for 10 min.
     var pizzaTime : Int
     //topping array
@@ -31,13 +29,22 @@ protocol PizzaInterface {
         self.pizzaCrust = pizzaCrust
         
     }
+    func calculaterTopping() -> Double {
+        return Double(pizzaTopping.count) * cost
+    }
     
     func toString() -> String {
         return "Time : \(pizzaTime)\nSize : \(pizzaSize)\nTopping : \(pizzaTopping)\nCrust : \(pizzaCrust)"
     }
     
-
+    init (){
+        pizzaSize = 0
+        pizzaCrust = ""
+        pizzaTopping = [""]
+        pizzaTime = 10
+    }
     
     //add an init that takes the array of toppings, size, and maybe cost...if you didn't take cost, you could calculate it based on size and number of toppings
+    
 }
 
