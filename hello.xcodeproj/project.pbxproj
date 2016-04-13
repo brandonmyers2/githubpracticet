@@ -14,6 +14,7 @@
 		7F287F801CBD3CF700765FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F287F7E1CBD3CF700765FD5 /* LaunchScreen.storyboard */; };
 		7F287F8B1CBD3CF700765FD5 /* helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287F8A1CBD3CF700765FD5 /* helloTests.swift */; };
 		7F287F961CBD3CF700765FD5 /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287F951CBD3CF700765FD5 /* helloUITests.swift */; };
+		7F287FA41CBD44D400765FD5 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287FA31CBD44D400765FD5 /* pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F287F911CBD3CF700765FD5 /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F287F951CBD3CF700765FD5 /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		7F287F971CBD3CF700765FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F287FA31CBD44D400765FD5 /* pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7F287F7C1CBD3CF700765FD5 /* Assets.xcassets */,
 				7F287F7E1CBD3CF700765FD5 /* LaunchScreen.storyboard */,
 				7F287F811CBD3CF700765FD5 /* Info.plist */,
+				7F287FA31CBD44D400765FD5 /* pizza.swift */,
 			);
 			path = hello;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F287FA41CBD44D400765FD5 /* pizza.swift in Sources */,
 				7F287F781CBD3CF700765FD5 /* ViewController.swift in Sources */,
 				7F287F761CBD3CF700765FD5 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				7F287F9C1CBD3CF700765FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F287F9D1CBD3CF700765FD5 /* Build configuration list for PBXNativeTarget "helloTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				7F287F9F1CBD3CF700765FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F287FA01CBD3CF700765FD5 /* Build configuration list for PBXNativeTarget "helloUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				7F287FA21CBD3CF700765FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
